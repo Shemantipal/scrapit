@@ -1,12 +1,12 @@
  # **LinkedIn Jobs Scraper**
 
-LinkedIn Jobs Scraper running in Node.js that uses Puppeteer and RxJS to scrape job offers from LinkedIn.
+A **Node.js-based LinkedIn Jobs Scraper** that leverages **Puppeteer** and **RxJS** to extract job listings efficiently.  
 
-- Parses LinkedIn job offers and returns the data in JSON format  
-- Loops through all the pages for a specified search parameters  
-- Loops through as many search parameters as needed  
-- Uses RxJS Observables instead of Promises  
-- Handles 429 status code error  
-- Handles LinkedIn Authwall  
-- Saves the scraped data as JSON in an auto-generated /data folder  
-- It is written entirely in TypeScript  
+- Retrieves LinkedIn job postings and outputs structured JSON data  
+- Navigates through multiple pages for given search criteria  
+- Supports multiple search queries dynamically  
+- Implements **RxJS Observables** for seamless data handling  
+- Effectively manages **429 rate limit errors**  
+- Bypasses LinkedIn's authentication barriers  
+- Automatically stores scraped job data in a `/data` directory  
+- Developed entirely in **TypeScript** for type safety and scalability  
