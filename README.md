@@ -1,3 +1,7 @@
+ # **LinkedIn Jobs Scraper**
+
+LinkedIn Jobs Scraper running in Node.js that uses Puppeteer and RxJS to scrape job offers from LinkedIn.
+
 - Parses LinkedIn job offers and returns the data in JSON format  
 - Loops through all the pages for a specified search parameters  
 - Loops through as many search parameters as needed  
